@@ -1,0 +1,666 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    overflow-x:hidden;
+}
+
+
+
+.container-body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 52px;
+}
+
+.title-go{
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+}
+
+
+
+.icon-go i{
+    padding: 20px;
+    margin-right: 10px;
+    border-radius: 100%;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.facebook-go{
+    background-color: #3b5998;
+    
+}
+
+.twitter-go{
+    background-color: #1da1f2;
+}
+
+.google-go{
+    background-color: #dd4b39;
+}
+
+.plus-go{
+    background-color: #ea4335;
+}
+
+
+.icon-go i:hover{
+    background-color: 	#04548c;
+}
+
+
+/* Dream Vacation section starts here  */
+
+.Dream-vacation{
+    padding: 34px 0px 0px 0px;
+}
+
+.dream-con{
+    background-image: url(./img/back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55vh;
+    width: 100%;
+}
+
+
+.div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #003E53;
+     width: 100%;
+    height: 187px;
+}
+
+
+.title-body{
+    font-size: 44px;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 300;
+    color: #fff;
+}
+
+.btn{
+    color: #fff;
+    font-family: "Playfair Display", Sans-serif;
+    background-color: #e4bc36;
+    font-size: 24px;
+    padding: 20px 40px;
+    cursor: pointer;
+    border: none;
+    transition: 0.4s;
+}
+
+
+.btn:hover{
+    background-color:#157fcf;
+}
+
+
+/* Dream Vacation section ends here  */
+
+
+
+/* Enjoy Some section starts here  */
+
+.Enjoy-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 60px;
+    height: 34vh;
+}
+
+.enjoy h4{
+    color: #8daca6;
+    font-family: "Playfair Display", Sans-serif;
+    font-size: 36px;
+    font-weight: normal;
+    margin-bottom: 15px;
+
+}
+
+.enjoy p{
+    font-family: "Roboto", Sans-serif;
+    font-size: 20px;
+    width: 625px;
+    height: auto;
+    margin-bottom: 18px;
+}
+
+.enjoy-img{
+    width: 75%;
+    height: auto;
+    border-style: solid;
+    border-width: 10px 10px 10px 10px;
+    border-color: #ffffff;
+    box-shadow: 10px 10px 20px 0px rgb(0 0 0 / 12%);
+}
+
+
+/* Enjoy Some section ends here  */
+
+
+/* Perfect Surrounding section starts here  */
+
+.Perfect-Contanier{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    width: 100%;
+    height: 44vh;
+
+}
+
+.Surrounding-con h5{
+    font-size: 36px;
+    color: #8daca6;
+    font-family: "Playfair Display", Sans-serif;
+    font-weight: normal;
+    margin-bottom: 15px;
+
+}
+
+.Surrounding-con p{
+    font-family: "Roboto", Sans-serif;
+    font-size: 20px;
+    width: 625px;
+    height: auto;
+    margin-bottom: 18px;
+}
+
+.Perfect-img img{
+    width: 75%;
+    height: auto;
+    border-style: solid;
+    border-width: 10px 10px 10px 10px;
+    border-color: #ffffff;
+    box-shadow: -10px 10px 20px 0px rgb(0 0 0 / 12%);
+}
+
+/* Perfect Surrounding section ends here  */
+
+
+
+
+/* Fine Food Cuisine section starts here  */
+
+
+.Food-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    width: 100%;
+    height: 44vh;
+}
+
+.Fine-contac h6{
+    font-size: 36px;
+    color: #8daca6;
+    font-family: "Playfair Display", Sans-serif;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.Fine-contac p{
+    font-family: "Roboto", Sans-serif;
+    font-size: 20px;
+    width: 625px;
+    height: auto;
+    margin-bottom: 18px;
+}
+
+.Food-img img{
+    width: 75%;
+    height: auto;
+    border-style: solid;
+    border-width: 10px 10px 10px 10px;
+    border-color: #ffffff;
+    box-shadow: -10px 10px 20px 0px rgb(0 0 0 / 12%);
+}
+
+
+/* Fine Food Cuisine section ends here  */
+
+
+
+/* Best Experience section starts here  */
+
+.Best-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    background-image: linear-gradient(260deg, #d2e9e1 0%, rgba(210,233,225,0.37) 100%);
+    width: 100%;
+    height: 98vh;
+    transition:  0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 60px 0px 80px 0px;
+}
+
+.Experience-con h2{
+    color: #003e53;
+    font-family: "Playfair Display", Sans-serif;
+    font-size: 36px;
+    font-weight: normal;
+    margin-bottom: 63px;
+    margin-top: 4px;
+    text-align: center;
+}
+
+
+.iframe-title{
+    width: 1007px;
+    height: 551px;
+    border-style: solid;
+    border-width: 10px 10px 10px 10px;
+    border-color: #ffffff;
+    box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 12%)
+}
+
+.Experience-con p{
+    color: #003e53;
+    font-family: "Playfair Display", Sans-serif;
+    font-size: 25px;
+    margin-top: 42px;
+    width: 1003px;
+    height: auto;
+    text-align: center;;
+}
+
+.img-good{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12%;
+    margin-bottom: 23px;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+
+
+.pere-boy{
+    color: #e4bc36;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.pire-gor{
+    font-family: "Roboto", Sans-serif;
+    line-height: 1.6em;
+    text-align: center;
+}
+
+/* Best Experience Section ends here */
+
+
+/* footer starts here */
+
+.div-go{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #003E53;
+     width: 100%;
+    height: 187px;
+}
+
+.footer-container h3{
+    font-size: 43px;
+    color: #fff;
+    
+}
+
+/* footer ends here */
+
+
+@media (max-width:992px) {
+    .container-body{
+        width: 120%;
+        height: auto;
+    }
+
+    .title-go{
+        font-size: 28px;
+        margin-left: -187px;
+    }
+
+    .title-body{
+        font-size: 27px;
+     }
+
+    .btn{
+        font-size: 17px;
+        padding: 16px 32px;
+    }    
+
+    .icon-go i{
+        font-size: 15px;
+        padding: 15px;
+    }
+
+
+    .dream-con{
+        width: 100%;
+        height: 71vh;
+    }
+
+
+    .div{
+        width: 100%;
+        height: 98px;
+    }
+    
+    
+
+    .Enjoy-container{
+        margin-left: 46px;
+        width: 100%;
+        height: auto;
+    }
+
+    .enjoy h4{
+        font-size: 25px;
+    }
+
+
+    .enjoy p{
+        font-size: 16px;
+        width: 71%;
+        height: auto;
+    } 
+
+    .Perfect-Contanier{
+        padding-left: 50px;
+
+    }
+
+
+    .Surrounding-con h5{
+        font-size: 27px;
+    }
+
+
+    .Surrounding-con p{
+        font-size: 16px;
+        width: 71%;
+        height: auto;
+    }
+
+
+
+    .Fine-contac h6{
+        font-size: 29px;
+    }
+
+    .Fine-contac p{
+        font-size: 16px;
+        width: 71%;
+        height: auto;
+    }
+
+    .Food-container{
+        padding-left: 50px;
+    }
+
+
+    .Experience-con h2{
+        font-size: 20px;
+    }    
+
+
+    .Experience-con p{
+        font-size: 6px;
+        height: auto;
+        width: 94%;
+        margin-top: 150px;
+    }
+
+    
+
+    .Best-container{
+
+    width: 100%;
+    height: 100vh;
+}
+    
+    
+    
+    .iframe-title{
+        width: 578px;
+        height: 44vh;
+    }
+    
+
+
+    .img-good{
+        width: 7%;
+        height: auto;
+    }
+
+    .pere-boy{
+        font-size: 17px;
+    }
+
+
+    .pire-gor{
+        font-size: 12px;
+    }
+
+    .footer-container h3{
+        font-size: 25px;
+    }
+
+    .div-go{
+        width: 100%;
+        height: 12vh
+    }
+
+    .btn{
+        font-size: 13px;
+    }
+
+}
+
+
+@media (max-width:768px) {
+    .container-body{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .title-go{
+        margin: 0 auto;
+    }
+
+
+    .dream-con{
+        width: 100%;
+        height: 37vh;
+    }
+
+    .div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 20vh;
+    }
+
+    .title-body{
+        margin-top: 22px;
+    }
+
+    .Enjoy-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .enjoy h4{
+        text-align: center;
+    }
+
+    .enjoy p{
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .btn{
+        margin: 0 auto;
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .enjoy-img{
+        margin-top: 66px;
+        width: 84%;
+        height: auto;        
+    }
+
+    .Perfect-Contanier{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .Perfect-img img{
+        width: 89%;
+    }
+
+    .Surrounding-con h5{
+        padding-top: 46px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .Surrounding-con p{
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+
+    .Food-container{
+        display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 95px;
+    height: 63vh;
+    }
+
+    .Fine-contac h6{
+        text-align: center;
+        font-size: 27px;
+    }
+    
+
+
+    .Fine-contac p{
+        margin: 0 auto;
+        text-align: center;
+
+    }
+
+    .Best-container{
+        width: 100%;
+        height: 130vh;
+    }
+
+
+    .Food-img img{
+        width: 599px;
+        height: 50vh;
+    }
+
+    .Experience-con h2{
+        font-size: 28px;
+    }
+
+    .iframe-title{
+        width: 644px;
+        height: 57vh;
+    }
+
+    .Experience-con p{
+
+    }
+
+    .div-go{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 20vh;
+    }
+
+    .footer-container h3{
+        font-size: 33px;
+        margin-top: 21px;
+    }
+    
+    .btn{
+        margin-bottom: 20px;
+    }
+    
+}
+
+
+@media (max-width:600px) {
+    .Food-img img{
+        width: 429px;
+    }
+
+    .iframe-title{
+        width: 425px;
+        height: 35vh;
+    }
+}
+
+@media (max-width:414px) {
+    .Food-img img{
+        
+        width: 100%;
+        height: 25vh;
+    }
+
+    .enjoy h4{
+
+    }
+
+    .div-go{
+        height: 30vh;
+    }
+
+    .btn{
+        margin-bottom: 83px;
+    }
+
+    .title-go{
+        font-size: 37px;
+        margin-bottom: 12px;
+    }
+    
+}
+
+
+
+
+
